@@ -1,0 +1,95 @@
+.searchBox {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.searchBox > input[type="text"] {
+  border: none;
+  color: rgba(0, 0, 0, 0.637);
+  padding: 0.5vmax 0.8vmax;
+    outline: none;
+    border-radius: 0%;
+    font: 300 1.1vmax Roboto;
+    box-sizing: border-box;
+    width: 254px;
+}
+
+.searchBox > button[type="submit"] {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 100%;
+  cursor: pointer;
+}
+
+/* Style the TiSearch icon */
+.searchBox > button[type="submit"] > svg {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.637);
+}
+
+
+@media screen and (max-width: 600px) {
+  .searchBox {
+    flex-direction: row;
+    align-items: center;
+    
+    width: 100%;
+  }
+
+  .searchBox > input[type="text"] {
+    font: 300 4vw Roboto;
+    height: 10%;
+    border: none;
+    color: rgba(0, 0, 0, 0.637);
+    padding: 0.8vmax 6vmax;
+    outline: none;
+    border-radius: 0%;
+    font: 300 1.3vmax Roboto;
+    box-sizing: border-box;
+    padding: 1.2vmax 1.5vmax;
+    padding: 1vmax 1.5vmax;
+    width: 174px;
+  }
+
+  .mobile-toggle-btn {
+    display: block;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+
+  .searchBox > button[type="submit"] {
+    position: static;
+    margin-left: 10px;
+    width: 30%;
+    font: 300 4vw "Roboto";
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.2rem;
+    height: 100%;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,14 @@
+.speedDial {
+    position: fixed;
+    right: 2vmax;
+    bottom: 2vmax;
+  }
+  
+  .speedDialIcon {
+    font-size: 30px;
+    border-radius: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+
+  

@@ -1,0 +1,61 @@
+@import "../../../css-config/mixins.scss";
+
+.react-multiple-carousel__arrow--right {
+    right: calc(2% + 1px);
+    z-index: 0;
+}
+
+.react-multiple-carousel__arrow--left {
+    left: calc(2% + 1px);
+    z-index: 0;
+}
+
+.products-container {
+    margin: 15px 0;
+
+    @include md {
+        margin: 50px 0;
+
+    }
+
+    .sec-headinggg {
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-align: center;
+
+        @include md {
+            margin-bottom: 35px;
+            font-size: 35px;
+            text-align: center;
+        }
+
+        &:after {
+            content: "";
+            display: block;
+            margin-left: 8.2rem;
+            width: 112px;
+            height: 3px;
+            background-image: linear-gradient(40deg, #d63c3e, #e1c08f);
+            border-radius: 10px;
+
+            @include md {
+                margin-top: 10px;
+                margin-left: 28.9rem;
+                width: 220px;
+                margin-top: 5px;
+            }
+
+        }
+    }
+
+    // .products {
+    //     display: flex;
+    //     flex-flow: wrap;
+    //     gap: 13px;
+    //     @include md {
+    //         gap: 2px;
+    //     }
+    // }
+}

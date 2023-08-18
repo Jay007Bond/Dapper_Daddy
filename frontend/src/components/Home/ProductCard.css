@@ -1,0 +1,196 @@
+
+
+
+.productCard {
+  width: 19vmax;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 2vmax;
+  transition: all 0.5s;
+  padding-bottom: 0.5vmax;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.267);
+  border-radius: 8px;
+}
+
+p.outOfStock {
+  font: 600 1.5vmax "Roboto";
+  color: #ff0000be;
+}
+
+
+.productCard > img {
+  width: 19vmax;
+  border-radius: 8px 8px 0px 0px;
+  cursor: pointer;
+
+}
+
+.productCard > div {
+  margin: 0.5vmax;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productCardSpan {
+  margin: 0.5vmax;
+  font: 300 0.7vmax "Roboto";
+}
+
+
+.productCard > .size > span:nth-child(1) {
+  margin: 0 0.5vmax;
+  font: 500 1.4vmax "Roboto"; /* Font for the first span */
+}
+
+.productCard > .size > span:nth-child(2) {
+  margin: 0 0.5vmax;
+  font: 500 1vmax "Roboto"; /* Font for the second span */
+}
+
+.productCard > .size > span:nth-child(3) {
+  margin: 0 0.5vmax;
+  font: 400 1vmax "Roboto"; /* Font for the third span */
+}
+
+
+.productCard > p {
+  font: 400 1.5vmax "Roboto";
+  margin: 1vmax 0.5vmax;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* .productCard > span {
+  margin: 0.5vmax;
+  color: tomato;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1vmax;
+} */
+
+
+.sellinggg {
+  margin: 0.5vmax;
+  font-size: 25px;
+  color: rgb(82, 80, 80);
+}
+
+.mrp-priceee {
+  margin: 0.5vmax;
+  text-decoration: line-through;
+  font-size: 16px;
+  color: #5f5d5de0;
+  /* margin-left: 8px; */
+}
+
+.discount-perrr {
+  color: #ff0505;
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 3px;
+}
+
+.productCard:hover {
+  box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+
+  transform: translateY(-1vmax);
+}
+
+button.btn {
+  border: none;
+  outline: 0;
+  padding: 8px;
+  color: white;
+  background-color: #ff0000;
+  text-align: center;
+  cursor: pointer;
+  width: 60%;
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button.btn:hover {
+  background-color: #a81a1a  ; /* Change the background color when the button is hovered */
+}
+
+@media screen and (max-width: 600px) {
+
+  .productCard {
+    width: 30vmax;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    margin: 2vmax;
+    transition: all 0.5s;
+    padding-bottom: 1.5vmax;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.267);
+    border-radius: 8px;
+}
+
+.productCard > img {
+  width: 30vmax;
+  border-radius: 8px 8px 0px 0px;
+}
+  .productCard > p {
+    font-size: 1.7vmax;
+    display: flex;
+  justify-content: center;
+  }
+
+  .productCard > div {
+    margin: 0vmax;
+  }
+
+   .sellinggg {
+    font-size: 1.8vmax;
+  }
+   .discount-perrr {
+    font-size: 1.2vmax;
+  }
+   .mrp-priceee {
+    font-size: 1.2vmax;
+  }
+
+  .productCardSpan {
+    margin: 0.5vmax;
+    font: 300 0.2vmax "Roboto";
+  }
+
+  .productCard > .size > span {
+    margin: 0 0.5vmax;
+    font: 300 2.5vmax "Roboto";
+  }
+
+  button.btn {
+    border: none;
+    outline: 0;
+    padding: 3px;
+    color: white;
+    background-color: #c91b1b;
+    text-align: center;
+    cursor: pointer;
+    width: 60%;
+    font-size: 14px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border-radius: 8px;
+    
+}
+
+
+
+
+.main {
+  margin: 0rem;
+  padding: 4px;
+}
+
+}

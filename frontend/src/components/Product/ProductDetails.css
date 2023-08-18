@@ -1,0 +1,616 @@
+.ProductDetails {
+  margin-top: 4vmax;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 50px;
+    padding: 20px 50px;
+  }
+  
+  /* .ProductDetails > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2vmax;
+    box-sizing: border-box;
+    border: 1px solid white;
+  } */
+  
+  /* .ProductDetails > div:last-child {
+    align-items: flex-start;
+  }
+   */
+
+  .ProductDetails .left {
+    flex: 1 1;
+    display: flex;
+    gap: 20px;
+  }
+
+  .ProductDetails .left .images {
+    flex: 1 1;
+  }
+
+  .ProductDetails .left .images img {
+    width: 60%;
+    height: 130px;
+    object-fit: cover;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  .ProductDetails .left .mainImg {
+    flex: 5 1;
+  }
+
+  .ProductDetails .left .mainImg img {
+    width: 100%;
+    max-height: 800px;
+    object-fit: cover;
+}
+
+
+/* right */
+
+.ProductDetails .right {
+    flex: 1 1;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+
+  .product-data-warranty {
+    border-top: 1px solid rgba(0, 0, 0, 0.205);
+    padding: 1vmax 0;
+}
+    .product-data-warranty {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 1rem;
+    }
+
+      .product-warranty-data {
+        /* width: 50%; */
+        text-align: center;
+      }
+
+      .warranty-icon {
+        background-color: rgba(220, 220, 220, 0.5);
+        border-radius: 50%;
+        width: 3rem;
+        height: 3rem;
+        padding: 0.6rem;
+      }
+        p {
+          font:300 0.4rem "Roboto";
+          padding-top: 0.1rem;
+        }
+    
+
+
+
+
+
+
+
+  .detailsBlock-1 > .namesw {
+    color: rgb(54, 54, 54);
+    font: 400 1.6vmax "Roboto";
+    padding: 1vmax 0
+  }
+  
+  .detailsBlock-1 > p {
+    color: rgba(54, 54, 54, 0.582);
+    font: 200 0.9vmax "Roboto";
+  }
+  
+  .detailsBlock-2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.205);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+    width: 70%;
+    padding: 0.5vmax 0;
+  }
+  
+  .detailsBlock-2-span {
+    font: 300 0.8vmax "Roboto";
+    
+  }
+  
+  .detailsBlock-3 {
+    width: 70%;
+    padding: 1vmax 0
+  }
+  
+  /* .detailsBlock-3 > h1 {
+    color: rgba(17, 17, 17, 0.795);
+    font: 400 1.8vmax "Franklin Gothic Medium";
+    margin: 1vmax 0;
+  } */
+
+  .detailsPrice {
+    display: grid;
+}
+
+
+  .selling {
+    font: 400 1.8vmax "Roboto";
+    margin: 1vmax 0;
+    color: rgba(17, 17, 17, 0.795);
+    margin-left: 5px;
+  }
+
+  .mrp-price {
+    text-decoration: line-through;
+    font: 300 1.1vmax "Roboto";
+    color: #676767e0;
+  }
+
+  .discount-per {
+    color: #ff0505;
+    font:200 0.9rem "Roboto";
+    /* letter-spacing: -.2px; */
+  }
+
+  .detailsBlock-3-1-1 {
+    display: flex;
+    align-items: center;
+    height: 8vmax;
+}
+
+
+
+  .detailsBlock-3-1 {
+    display: flex;
+    align-items: center;
+    padding: 1vmax 0;
+  }
+  
+  .detailsBlock-3-1-1 > button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.616);
+    padding: 0.5vmax;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+  }
+  .detailsBlock-3-1-1 > button:hover {
+    background-color: rgba(0, 0, 0, 0.767);
+  }
+  
+  .detailsBlock-3-1-1 > input {
+    border: none;
+    /* padding: 0.5vmax; */
+    width: 2vmax;
+    text-align: center;
+    outline: none;
+    font: 400 1vmax "Roboto";
+    color: rgba(0, 0, 0, 0.74);
+  }
+  
+  .detailsBlock-3-1 > button:last-child {
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+    background-color: #822a1b;
+    font: 500 0.8vmax "Roboto";
+    border-radius: 8px;
+    padding: 1vmax 3vmax;
+    margin: 2vmax;
+    outline: none;
+}
+  
+  
+  .detailsBlock-3-1 > button:last-child:hover {
+    background-color: rgb(88, 22, 11);
+  }
+  
+  .detailsBlock-3 > p {
+    /* border-top: 1px solid rgba(0, 0, 0, 0.205); */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+    padding: 1vmax 0;
+    color: rgba(0, 0, 0, 0.651);
+    font: 400 1vmax "Roboto";
+    margin: 1vmax 0;
+  }
+  
+  .detailsBlock-4 {
+    color: rgba(0, 0, 0, 0.897);
+    font: 500 1.2vmax "Roboto";
+  }
+  
+  .detailsBlock-4 > p {
+    color: rgba(0, 0, 0, 0.534);
+    font: 300 1vmax "Roboto";
+    display: contents;
+  }
+  
+  .right .submitReview {
+    border: none;
+    background-color:#ffab47;
+    font: 500 0.7vmax "Roboto";
+    border-radius: 20px;
+    padding: 0.6vmax 2vmax;
+    margin: 1vmax 0;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+   
+  }
+  .submitReview:hover {
+    background-color: rgb(234 111 17 / 85%);
+    transform: scale(1.1);
+  }
+  
+  .submitDialog {
+    display: flex;
+    flex-direction: column;
+  }
+  .submitDialogTextArea {
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    margin: 1vmax 0;
+    outline: none;
+    padding: 1rem;
+    font: 300 1rem "Roboto";
+  }
+  
+  .reviewsHeading {
+    color: #000000be;
+    font: 500 1.4vmax "Philosopher";
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+    padding: 1vmax;
+    width: 20vmax;
+    margin: auto;
+    margin-bottom: 4vmax;
+    margin-top: 10vmax;
+  }
+  .reviews {
+    display: flex;
+    overflow: auto;
+  }
+  
+  .reviewCard {
+    flex: none;
+  
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.226);
+    border: 1px solid rgba(56, 56, 56, 0.116);
+    width: 30vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vmax;
+    padding: 3vmax;
+  }
+  .reviewCard > img {
+    width: 2vmax;
+  }
+  .reviewCard > p {
+    color: rgba(0, 0, 0, 0.836);
+    font: 600 0.9vmax "Roboto";
+  }
+  .reviewCardComment {
+    color: rgba(0, 0, 0, 0.445);
+    font: 300 0.8vmax "Roboto";
+  }
+  
+  .noReviews {
+    font: 400 1.3vmax "Roboto";
+    text-align: center;
+    color: rgba(0, 0, 0, 0.548);
+  }
+
+
+  img.icon-img {
+    width: 283px;
+}
+  
+  @media screen and (max-width: 600px) {
+    .ProductDetails {
+      flex-direction: column;
+      height: unset;
+    }
+  
+    /* .ProductDetails > div:last-child {
+      align-items: center;
+    } */
+
+    /* .right {
+      align-items: center;
+      justify-content: center;
+    } */
+
+    .ProductDetails .left .images img {
+      width: 100%;
+      height: 66px;
+      object-fit: cover;
+      cursor: pointer;
+      margin-bottom: 10px;
+  }
+  
+    .detailsBlock-1 > .namesw {
+      font-size: 2.8vmax;
+      text-align: center;
+    }
+  
+    .detailsBlock-1 > p {
+      text-align: center;
+      font-size: 1vmax;
+    }
+  
+    .detailsBlock-2 {
+      justify-content: center;
+      width: auto;
+    }
+
+
+    .detailsBlock-3 {
+      justify-content: center;
+      width: auto;
+    }
+
+
+    .detailsBlock-2 > span {
+      font-size: 1.5vmax;
+    }
+  
+    .detailsBlock-3 > h1 {
+      font: 700 3vmax "Franklin Gothic Medium";
+      text-align: center;
+    }
+  
+    .detailsBlock-3-1 {
+      flex-direction: column;
+    }
+  
+    .detailsBlock-3-1-1 {
+      padding: 2vmax 0;
+    }
+    .detailsBlock-3-1-1 > button {
+      padding: 1.2vmax;
+      width: 4vmax;
+    }
+  
+    .detailsBlock-3-1-1 > input {
+      /* padding: 1.5vmax; */
+      width: 3vmax;
+      font: 400 1.8vmax "Roboto";
+    }
+  
+    .detailsBlock-3-1 > button:last-child {
+      font: 500 1.7vmax "Roboto";
+      padding: 1.5vmax;
+      width: 20vmax;
+      margin: 3vmax 0;
+    }
+  
+    .detailsBlock-3 > p {
+      padding: 2.5vmax 0;
+      text-align: center;
+      font: 400 2vmax "Roboto";
+    }
+  
+    .detailsBlock-4 {
+      font: 500 2.5vmax sans-serif;
+    }
+  
+    .detailsBlock-4 > p {
+      font: 300 1.8vmax sans-serif;
+    }
+  
+    .right .submitReview {
+      font: 500 1.7vmax "Roboto";
+      padding: 1.5vmax;
+      width: 20vmax;
+      margin: 3vmax 0;
+    }
+  
+    .reviewCard > p {
+      font: 600 3vw "Roboto";
+    }
+    .reviewCardComment {
+      font: 300 5vw "Roboto";
+    }
+  }
+
+
+
+
+  .rev-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    gap: 5vmax;
+}
+
+.abhishek{
+  color: rgba(0, 0, 0, 0.534);
+  font: 300 1vmax sans-serif;
+}
+
+
+.submitReviews {
+  border: 1px solid currentColor;
+  padding: 5px 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.rev-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  gap: 6vmax;
+  margin-bottom: 4vmax;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner-content{
+  cursor: pointer;
+    font-size: 19px;
+    /* padding: 32px; */
+    margin-bottom: 10px;
+    align-items: flex-start;
+    margin: auto 80px;
+    color: #000000be;
+    font: 500 1.4vmax "Roboto";
+}
+
+
+  /* .hero-banner{
+    margin-top: 12vmax;
+  } */
+
+  .hero-banner {
+    margin-bottom: 7rem;
+}
+
+
+
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin:auto;
+  
+  gap: 1vmax;
+}
+
+
+.first-hero-image {
+  flex:1;
+  width: 600px;
+  margin: auto;
+  /* animation: fadeInRight 2s ease; */
+}
+
+.second-hero-image{
+  flex:1;
+  width: 600px;
+  margin: auto;
+  /* animation: fadeInRight 2s ease; */
+}
+
+
+
+.first-hero-image > img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.second-hero-image > img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .detailsPrice {
+    display: grid;
+    justify-content: center;
+}
+ 
+  .banner-container {
+      width: 100%;
+      flex-direction: column;
+      /* margin: 0px; */
+      padding: 0px 40px;
+  }
+
+  .first-hero-image {
+      width: 100%;
+  }
+
+  .second-hero-image{
+    width: 100%;
+  }
+
+  .selling {
+    font: 400 2.8vmax "Franklin Gothic Medium";
+}
+
+.discount-per {
+  
+  font-size: 10px;
+
+}
+
+/* .warranty-icon {
+  width: 6rem;
+  height: 4rem;
+  padding: 0.6rem;
+} */
+
+
+}
+
+/* @keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translateY(50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(50px);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+      opacity: 0;
+      transform: translateX(-50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(50px);
+  }
+} */
+

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&family=Roboto:wght@100;300;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* font-size: 16px; */
+    line-height: 33px;
+    /* font-weight: 500; */
+    overflow-x: hidden;
+
+    /* -webkit-user-select: none; */
+/* Safari */
+/* -ms-user-select: none; */
+/* IE 10 and IE 11 */
+/* user-select: none; */
+/* Standard syntax */
+}
+
+::-webkit-scrollbar {
+    height: 2px;
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2ex;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(40deg, #d63c3e, #e1c08f);
+    border-radius: 2ex;
+}
+
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.greenColor {
+  color: green !important;
+}
+.redColor {
+  color: red !important;
+}
